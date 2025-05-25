@@ -4,7 +4,7 @@
 
 int main() {
     try {
-        std::cout << "=== Singly Linked List ===" << std::endl;
+        std::cout << "Singly Linked List" << std::endl;
         SinglyLinkedList<int> sList;
         sList.push_back(10);
         sList.push_back(20);
@@ -19,7 +19,7 @@ int main() {
 
         std::cout << "Element at index 1: " << sList.at(1) << std::endl;
 
-        std::cout << "\n=== Doubly Linked List ===" << std::endl;
+        std::cout << "\nDoubly Linked List" << std::endl;
         DoublyLinkedList<std::string> dList;
         dList.push_front("world");
         dList.push_front("hello");

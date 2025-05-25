@@ -9,8 +9,6 @@
 #include <iostream>
 #include <stdexcept>
 
-// Двозв'язний список
-
 template <typename T>
 class DoublyLinkedList {
 private:
